@@ -14,8 +14,11 @@ class ResumeScreen extends StatelessWidget {
   const ResumeScreen({required this.pref, Key? key}) : super(key: key);
 
   Future<Resume> loadResume() async {
-    Resume resume = (await Resume.loadFromFile()) ?? generateDummyResume();
-    resume.save();
+    Resume? resume = await Resume.loadFromFile();
+    if (resume == null) {
+      resume = generateDummyResume();
+      await resume.save();
+    }
     return resume;
   }
 

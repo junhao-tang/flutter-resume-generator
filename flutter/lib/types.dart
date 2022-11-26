@@ -13,7 +13,6 @@ enum InfoType { text, email, link }
 class BasicInfo {
   final InfoType type;
   final String? alt;
-  final String? imageUrl;
   // https://api.flutter.dev/flutter/material/Icons-class.html#constants
   final int? iconCodePoint;
   final String iconFamily;
@@ -24,7 +23,6 @@ class BasicInfo {
     this.type = InfoType.text,
     required this.data,
     this.alt,
-    this.imageUrl,
     this.iconCodePoint,
     this.iconImageUrl,
     this.iconFamily = "MaterialIcons",
@@ -113,8 +111,8 @@ class Resume {
     return data == null ? null : Resume.fromJson(data);
   }
 
-  void save() {
-    writeJsonToFile(filename, toJson());
+  Future<String?> save() {
+    return writeJsonToFile(filename, toJson());
   }
 }
 
@@ -369,7 +367,7 @@ class Preference extends ChangeNotifier {
     notifyListeners();
   }
 
-  void save() {
-    writeJsonToFile(filename, toJson());
+  Future<String?> save() {
+    return writeJsonToFile(filename, toJson());
   }
 }

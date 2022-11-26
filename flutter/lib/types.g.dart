@@ -11,7 +11,6 @@ BasicInfo _$BasicInfoFromJson(Map<String, dynamic> json) => BasicInfo(
           $enumDecodeNullable(_$InfoTypeEnumMap, json['type']) ?? InfoType.text,
       data: json['data'] as String,
       alt: json['alt'] as String?,
-      imageUrl: json['imageUrl'] as String?,
       iconCodePoint: json['iconCodePoint'] as int?,
       iconImageUrl: json['iconImageUrl'] as String?,
       iconFamily: json['iconFamily'] as String? ?? "MaterialIcons",
@@ -20,7 +19,6 @@ BasicInfo _$BasicInfoFromJson(Map<String, dynamic> json) => BasicInfo(
 Map<String, dynamic> _$BasicInfoToJson(BasicInfo instance) => <String, dynamic>{
       'type': _$InfoTypeEnumMap[instance.type]!,
       'alt': instance.alt,
-      'imageUrl': instance.imageUrl,
       'iconCodePoint': instance.iconCodePoint,
       'iconFamily': instance.iconFamily,
       'data': instance.data,

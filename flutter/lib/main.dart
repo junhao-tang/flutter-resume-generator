@@ -8,13 +8,15 @@ import 'types.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  Preference pref =
-      (await Preference.loadFromFile()) ?? generateDummyPreference();
-  pref.save();
+  Preference? pref = await Preference.loadFromFile();
+  if (pref == null) {
+    pref = generateDummyPreference();
+    await pref.save();
+  }
 
   runApp(
     ChangeNotifierProvider<Preference>(
-      create: (_) => pref,
+      create: (_) => pref!,
       child: const MyApp(),
     ),
   );

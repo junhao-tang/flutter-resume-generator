@@ -22,3 +22,4 @@ Generated Sample:<br/>
 - Watch files
 - Adjusting configurables based on feedback
 - Docs on schema
+- Error message on error (and also json validation)
