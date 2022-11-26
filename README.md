@@ -1,8 +1,8 @@
 # resume
 
-Generate resume as png/pdf using template (single paged that was found from Tiktok)
+Generate resume as png/pdf using template (single paged template, that was found from Tiktok)
 
-Generated Sample:
+Generated Sample:<br/>
 <img src="sample/sample.png" alt="demo" width="500px">
 
 
