@@ -131,9 +131,12 @@ BasicInfosWidgetPreference _$BasicInfosWidgetPreferenceFromJson(
       spacingBetweenIconAndText:
           (json['spacingBetweenIconAndText'] as num?)?.toDouble() ?? 0,
       iconBorderRadius: (json['iconBorderRadius'] as num?)?.toDouble() ?? 0,
+      iconSize: (json['iconSize'] as num?)?.toDouble() ?? 0,
       padding: json['padding'] == null
           ? const PaddingBox()
           : PaddingBox.fromJson(json['padding'] as Map<String, dynamic>),
+      iconBackgroundColorString:
+          json['iconBackgroundColorString'] as String? ?? "",
     );
 
 Map<String, dynamic> _$BasicInfosWidgetPreferenceToJson(
@@ -143,7 +146,9 @@ Map<String, dynamic> _$BasicInfosWidgetPreferenceToJson(
       'iconCellSize': instance.iconCellSize,
       'spacingBetweenIconAndText': instance.spacingBetweenIconAndText,
       'iconBorderRadius': instance.iconBorderRadius,
+      'iconSize': instance.iconSize,
       'padding': instance.padding,
+      'iconBackgroundColorString': instance.iconBackgroundColorString,
     };
 
 EducationsWidgetPreference _$EducationsWidgetPreferenceFromJson(
@@ -268,9 +273,9 @@ WorkingExperiencesWidgetPreference _$WorkingExperiencesWidgetPreferenceFromJson(
       titleRelevantSkills: json['titleRelevantSkills'] as String? ?? "",
       titleAchievements: json['titleAchievements'] as String? ?? "",
       spacingBeforeSubcategory:
-          (json['spacingBeforeRelevantSkills'] as num?)?.toDouble() ?? 0,
+          (json['spacingBeforeSubcategory'] as num?)?.toDouble() ?? 0,
       spacingAfterSubcategoryTitle:
-          (json['spacingAfterRelevantSkillsTitle'] as num?)?.toDouble() ?? 0,
+          (json['spacingAfterSubcategoryTitle'] as num?)?.toDouble() ?? 0,
       bullet: json['bullet'] as String? ?? "",
       bulletFontFamily: json['bulletFontFamily'] as String?,
       padding: json['padding'] == null
@@ -288,11 +293,11 @@ Map<String, dynamic> _$WorkingExperiencesWidgetPreferenceToJson(
       'spacingAfterEntryHeader': instance.spacingAfterEntryHeader,
       'titleRelevantSkills': instance.titleRelevantSkills,
       'titleAchievements': instance.titleAchievements,
-      'spacingBeforeRelevantSkills': instance.spacingBeforeSubcategory,
+      'spacingBeforeSubcategory': instance.spacingBeforeSubcategory,
       'bullet': instance.bullet,
       'bulletFontFamily': instance.bulletFontFamily,
       'padding': instance.padding,
-      'spacingAfterRelevantSkillsTitle': instance.spacingAfterSubcategoryTitle,
+      'spacingAfterSubcategoryTitle': instance.spacingAfterSubcategoryTitle,
     };
 
 Preference _$PreferenceFromJson(Map<String, dynamic> json) => Preference(
@@ -333,6 +338,7 @@ Preference _$PreferenceFromJson(Map<String, dynamic> json) => Preference(
           ? null
           : DividerWidgetPreference.fromJson(
               json['dividerWidgetPreference'] as Map<String, dynamic>),
+      pixelRatio: (json['pixelRatio'] as num?)?.toDouble(),
       themeJson: json['themeJson'] as Map<String, dynamic>?,
     );
 
@@ -340,6 +346,7 @@ Map<String, dynamic> _$PreferenceToJson(Preference instance) =>
     <String, dynamic>{
       'expectedWidth': instance.expectedWidth,
       'aspectRatio': instance.aspectRatio,
+      'pixelRatio': instance.pixelRatio,
       'leftPanelPref': instance.leftPanelPref,
       'rightPanelPref': instance.rightPanelPref,
       'educationsWidgetPreference': instance.educationsWidgetPreference,
