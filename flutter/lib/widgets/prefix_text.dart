@@ -14,10 +14,15 @@ class PrefixTextWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Text(
-      "$prefix $text",
-      style: TextStyle(fontFamily: fontFamily),
-      overflow: TextOverflow.ellipsis,
+    return Row(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(
+          " $prefix ",
+          style: TextStyle(fontFamily: fontFamily),
+        ),
+        Expanded(child: Text(text)),
+      ],
     );
   }
 }

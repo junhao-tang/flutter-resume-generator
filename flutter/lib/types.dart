@@ -334,10 +334,10 @@ class Preference extends ChangeNotifier {
     this.leftPanelPref = const PanelPreference(),
     this.rightPanelPref = const PanelPreference(),
     this.basicInfosWidgetPreference,
-    this.educationsWidgetPreference,
     this.interestFieldsWidgetPreference,
-    this.workingExperiencesWidgetPreference,
+    this.educationsWidgetPreference,
     this.headerWidgetPreference,
+    this.workingExperiencesWidgetPreference,
     this.dividerWidgetPreference,
     this.pixelRatio,
     this.themeJson,
@@ -360,6 +360,11 @@ class Preference extends ChangeNotifier {
     expectedWidth = preference.expectedWidth;
     aspectRatio = preference.aspectRatio;
     basicInfosWidgetPreference = preference.basicInfosWidgetPreference;
+    educationsWidgetPreference = preference.educationsWidgetPreference;
+    interestFieldsWidgetPreference = preference.interestFieldsWidgetPreference;
+    workingExperiencesWidgetPreference =
+        preference.workingExperiencesWidgetPreference;
+    headerWidgetPreference = preference.headerWidgetPreference;
     dividerWidgetPreference = preference.dividerWidgetPreference;
     themeJson = preference.themeJson;
     leftPanelPref = preference.leftPanelPref;

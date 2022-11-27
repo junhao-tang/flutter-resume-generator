@@ -313,25 +313,25 @@ Preference _$PreferenceFromJson(Map<String, dynamic> json) => Preference(
           ? null
           : BasicInfosWidgetPreference.fromJson(
               json['basicInfosWidgetPreference'] as Map<String, dynamic>),
-      educationsWidgetPreference: json['educationsWidgetPreference'] == null
-          ? null
-          : EducationsWidgetPreference.fromJson(
-              json['educationsWidgetPreference'] as Map<String, dynamic>),
       interestFieldsWidgetPreference: json['interestFieldsWidgetPreference'] ==
               null
           ? null
           : InterestFieldsWidgetPreference.fromJson(
               json['interestFieldsWidgetPreference'] as Map<String, dynamic>),
+      educationsWidgetPreference: json['educationsWidgetPreference'] == null
+          ? null
+          : EducationsWidgetPreference.fromJson(
+              json['educationsWidgetPreference'] as Map<String, dynamic>),
+      headerWidgetPreference: json['headerWidgetPreference'] == null
+          ? null
+          : HeaderWidgetPreference.fromJson(
+              json['headerWidgetPreference'] as Map<String, dynamic>),
       workingExperiencesWidgetPreference:
           json['workingExperiencesWidgetPreference'] == null
               ? null
               : WorkingExperiencesWidgetPreference.fromJson(
                   json['workingExperiencesWidgetPreference']
                       as Map<String, dynamic>),
-      headerWidgetPreference: json['headerWidgetPreference'] == null
-          ? null
-          : HeaderWidgetPreference.fromJson(
-              json['headerWidgetPreference'] as Map<String, dynamic>),
       dividerWidgetPreference: json['dividerWidgetPreference'] == null
           ? null
           : DividerWidgetPreference.fromJson(
