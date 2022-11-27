@@ -1,0 +1,100 @@
+{
+     "name": "Ash Ketchum",
+     "imageUrl": null,
+     "introduction": "Ash Ketchum is the main protagonist of Pokémon the Series. He is a 10-year-old Pokémon Trainer from Pallet Town in the Kanto region who has always dreamed of becoming the world's greatest Pokémon Master.",
+     "basicInfos": [
+          {
+               "type": "text",
+               "alt": "Age",
+               "imageUrl": null,
+               "iconCodePoint": 57632,
+               "iconFamily": "MaterialIcons",
+               "data": "10 (1987)",
+               "iconImageUrl": null
+          },
+          {
+               "type": "text",
+               "alt": "Working experience",
+               "iconCodePoint": 59122,
+               "iconFamily": "MaterialIcons",
+               "data": "25 years (since 1997)",
+               "iconImageUrl": null
+          },
+          {
+               "type": "text",
+               "alt": "Nationality",
+               "iconCodePoint": 58608,
+               "iconFamily": "MaterialIcons",
+               "data": "Pallet Town, Kanto",
+               "iconImageUrl": null
+          },
+          {
+               "type": "text",
+               "alt": "whatsapp",
+               "iconCodePoint": 58271,
+               "iconFamily": "MaterialIcons",
+               "data": "1234 5678",
+               "iconImageUrl": "https://www.iconpacks.net/icons/1/free-whatsapp-icon-121-thumb.png"
+          },
+          {
+               "type": "email",
+               "alt": "email",
+               "iconCodePoint": 57898,
+               "iconFamily": "MaterialIcons",
+               "data": "ashketchum@poke.com",
+               "iconImageUrl": null
+          },
+          {
+               "type": "link",
+               "alt": "ashketchum",
+               "iconCodePoint": null,
+               "iconFamily": "MaterialIcons",
+               "data": "https://www.linkedin.com/in/ashketchum/",
+               "iconImageUrl": "https://cdn-icons-png.flaticon.com/512/49/49656.png"
+          }
+     ],
+     "interestedFields": [
+          "Pokemon Trainer",
+          "Pokemon Battle",
+          "Research Assistant",
+          "Girlfriends Collecting",
+          "Pokemon on hand:\n* Pikachu\n* Dragonite\n* Gengar\n* Lucario\n* Sirfetch'd\n* Dracovish"
+     ],
+     "educations": [
+          {
+               "name": "Made-up Academy",
+               "subject": "Pokemon (Specialized in Battling)",
+               "duration": "1987 - 2022",
+               "logo": null,
+               "grade": "CGPA: 4.00 / 4.00",
+               "hons": "First Class",
+               "achievements": [
+                    "Gold medal receiver (Top 1 of Cohort)"
+               ]
+          }
+     ],
+     "workingExperiences": [
+          {
+               "companyName": "Pokemon Journeys",
+               "jobTitle": "Pokemon Champion",
+               "duration": "2020 Jun - On Going",
+               "description": "Pokémon Journeys: The Series, abbr. PJ, known as Pocket Monsters (ポケットモンスター, Poketto Monsutaa) in Japan, int. PM('19), and Pocket Monsters W (포켓몬스터 W, Poket Monseuteo W) in South Korea, int. W, is the eighth part of Pokémon the Series. It features all of the regions from the main-series games, including the Generation VIII games Pokémon Sword and Shield. The series shares its Japanese name with the original Japanese series when the anime first premiered in April 1997, and is officially labeled with \"2019\", the year this series started in, for disambiguation. A new art style was implemented for the fourth series in a row.",
+               "relevantSkills": [
+                    "Pokemon Battling",
+                    "Pokemon Training",
+                    "Collecting girlfriends"
+               ],
+               "acheivements": [
+                    "2022 - Became champion"
+               ]
+          },
+          {
+               "companyName": "Pokémon\nSun & Moon",
+               "jobTitle": "Pokemon Trainer",
+               "duration": "2016 Dec - 2020 Jan",
+               "description": "Pokémon the Series: Sun & Moon, known as Pocket Monsters: Sun & Moon (ポケットモンスター　サン＆アンドムーン, Poketto Monsutaa: San & Muun) in Japan and Pocket Monsters: Sun & Moon (포켓몬스터 썬&문, Poket Monseuteo Sseon & Mun) in South Korea, int. SM, is the seventh series of Pokémon the Series, which follows the seventh generation of Pokémon. It was revealed by the television network TV Tokyo on September 12, 2016, which released information about this series, like the logo and the new, more \"cartoony\" art style.",
+               "relevantSkills": null,
+               "acheivements": null
+          }
+     ]
+}

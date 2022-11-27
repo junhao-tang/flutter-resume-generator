@@ -1,0 +1,110 @@
+{
+     "name": "帅气的技术宅",
+     "imageUrl": "https://static.wikia.nocookie.net/kagerouproject/images/0/0e/MCA_-_Shintaro.png/revision/latest/scale-to-width-down/300?cb=20190705194828",
+     "introduction": "人见人爱，车见车载，帅得不行。\n人见人爱，车见车载，帅得不行。\n人见人爱，车见车载，帅得不行。\n人见人爱，车见车载，帅得不行。\n",
+     "basicInfos": [
+          {
+               "type": "text",
+               "alt": "生日日期",
+               "iconCodePoint": 57632,
+               "iconFamily": "MaterialIcons",
+               "data": "18 岁 (2004)",
+               "iconImageUrl": null
+          },
+          {
+               "type": "text",
+               "alt": "工作经验",
+               "iconCodePoint": 59122,
+               "iconFamily": "MaterialIcons",
+               "data": "17 年 专业经验 (2005)",
+               "iconImageUrl": null
+          },
+          {
+               "type": "text",
+               "alt": "国际",
+               "iconCodePoint": 58608,
+               "iconFamily": "MaterialIcons",
+               "data": "地球人",
+               "iconImageUrl": null
+          },
+          {
+               "type": "text",
+               "alt": "手机",
+               "iconCodePoint": 58271,
+               "iconFamily": "MaterialIcons",
+               "data": "+6010-123456789",
+               "iconImageUrl": null
+          },
+          {
+               "type": "email",
+               "alt": "电邮",
+               "iconCodePoint": 57898,
+               "iconFamily": "MaterialIcons",
+               "data": "pepega@pepega.com",
+               "iconImageUrl": null
+          },
+          {
+               "type": "link",
+               "alt": "xXSoftwareEngineerXx",
+               "iconCodePoint": null,
+               "iconFamily": "MaterialIcons",
+               "data": "https://www.linkedin.com/xXSoftwareEngineerXx",
+               "iconImageUrl": "https://cdn-icons-png.flaticon.com/512/49/49656.png"
+          }
+     ],
+     "interestedFields": [
+          "大型游戏开发",
+          "程序测试与优化",
+          "界面与用户体验设计",
+          "系统架构设计",
+          "互联网开发"
+     ],
+     "workingExperiences": [
+          {
+               "companyName": "我爸爸的公司",
+               "jobTitle": "少爷",
+               "duration": "2010 - 现在",
+               "description": "一些不废话的简介\n一些不废话的简介\n一些不废话的简介\n一些不废话的简介\n一些不废话的简介\n一些不废话的简介\n一些不废话的简介",
+               "relevantSkills": [
+                    "把氧气转换成二氧化碳",
+                    "确保厕所卫生干净",
+                    "公司空调体验与管理"
+               ],
+               "acheivements": [
+                    "2022 成功被票选为 [ 最躺平的员工 ]",
+                    "2021 成功地阻止公司扩展"
+               ]
+          },
+          {
+               "companyName": "我家",
+               "jobTitle": "少爷",
+               "duration": "2005 - 2004",
+               "description": "一些不废话的简介\n一些不废话的简介\n一些不废话的简介\n一些不废话的简介\n一些不废话的简介\n一些不废话的简介\n一些不废话的简介",
+               "relevantSkills": null,
+               "acheivements": null
+          }
+     ],
+     "educations": [
+          {
+               "name": "某某大学",
+               "subject": "某某专业",
+               "duration": "2015 - 2022",
+               "logo": "http://www.wdsoft.in/blog-images/2018/08/Badge-Logo.png",
+               "grade": "4.0 / 4.0 CGPA ",
+               "hons": "一等荣耀",
+               "achievements": [
+                    "2020 某某部 首席会长",
+                    "2021 某某 自愿工作"
+               ]
+          },
+          {
+               "name": "某某学院",
+               "subject": "某某专业基本训练",
+               "duration": "2005 - 2014",
+               "logo": null,
+               "grade": null,
+               "hons": null,
+               "achievements": null
+          }
+     ]
+}

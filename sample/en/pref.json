@@ -1,0 +1,132 @@
+{
+     "expectedWidth": 750.0,
+     "aspectRatio": 1.41428571429,
+     "pixelRatio": null,
+     "leftPanelPref": {
+          "padding": {
+               "top": 35.0,
+               "bottom": 35.0,
+               "left": 25.0,
+               "right": 25.0
+          },
+          "flex": 275,
+          "backgroundUrl": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b59388f2-d9d9-4daa-81f6-90a89b0f005b/d6ebgj3-d9eb52f4-f019-4c87-913d-8d8f94edba7f.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2I1OTM4OGYyLWQ5ZDktNGRhYS04MWY2LTkwYTg5YjBmMDA1YlwvZDZlYmdqMy1kOWViNTJmNC1mMDE5LTRjODctOTEzZC04ZDhmOTRlZGJhN2YuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.c_ws3OXRskmkIvrtZzkMm0s0NcG851Zcs6siFpvxR2U"
+     },
+     "rightPanelPref": {
+          "padding": {
+               "top": 35.0,
+               "bottom": 35.0,
+               "left": 30.0,
+               "right": 30.0
+          },
+          "flex": 580,
+          "backgroundUrl": "https://images.unsplash.com/photo-1585314062340-f1a5a7c9328d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YmxhY2slMjB0ZXh0dXJlfGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+     },
+     "basicInfosWidgetPreference": {
+          "spacingBetweenInfos": 5.0,
+          "iconCellSize": 20.0,
+          "spacingBetweenIconAndText": 8.0,
+          "iconBorderRadius": 5.0,
+          "iconSize": 15.0,
+          "padding": {
+               "top": 0.0,
+               "bottom": 45.0,
+               "left": 0.0,
+               "right": 0.0
+          },
+          "iconBackgroundColorString": "#ff9e9e9e"
+     },
+     "interestFieldsWidgetPreference": {
+          "title": "Skills",
+          "spacingAfterTitle": 17.0,
+          "bullet": "-",
+          "bulletFontFamily": null,
+          "padding": {
+               "top": 45.0,
+               "bottom": 45.0,
+               "left": 0.0,
+               "right": 0.0
+          }
+     },
+     "educationsWidgetPreference": {
+          "title": "Education",
+          "spacingAfterTitle": 25.0,
+          "spacingAfterEntry": 30.0,
+          "spacingAfterName": 5.0,
+          "logoSize": 35.0,
+          "bullet": "*",
+          "bulletFontFamily": null,
+          "padding": {
+               "top": 45.0,
+               "bottom": 0.0,
+               "left": 0.0,
+               "right": 0.0
+          }
+     },
+     "headerWidgetPreference": {
+          "avatarWidth": 130.0,
+          "avatarAspectRatio": 0.76,
+          "avatarBackgroundColorString": "#ffffffff",
+          "avatarBorderRadius": 5.0,
+          "spacingAfterImage": 20.0,
+          "spacingAfterName": 10.0,
+          "padding": {
+               "top": 0.0,
+               "bottom": 75.0,
+               "left": 0.0,
+               "right": 0.0
+          }
+     },
+     "workingExperiencesWidgetPreference": {
+          "title": "Experiences",
+          "spacingAfterTitle": 12.0,
+          "spacingAfterEntry": 50.0,
+          "textBetweenRoleAndDuration": "   |   ",
+          "spacingAfterEntryHeader": 5.0,
+          "titleRelevantSkills": "Highlighted Skills",
+          "titleAchievements": "Achievements",
+          "spacingBeforeSubcategory": 10.0,
+          "bullet": "*",
+          "bulletFontFamily": null,
+          "padding": {
+               "top": 42.0,
+               "bottom": 0.0,
+               "left": 0.0,
+               "right": 0.0
+          },
+          "spacingAfterSubcategoryTitle": 5.0
+     },
+     "dividerWidgetPreference": {
+          "thickness": 1.0,
+          "colorString": "#ffffffff",
+          "height": 10.0
+     },
+     "themeJson": {
+          "iconTheme": {
+               "color": "#ffffffff"
+          },
+          "textTheme": {
+               "headlineLarge": {
+                    "color": "#ff2196f3"
+               },
+               "headlineMedium": {
+                    "color": "#ffffffff"
+               },
+               "headlineSmall": {
+                    "color": "#ffffffff"
+               },
+               "titleLarge": {
+                    "color": "#ffffffff"
+               },
+               "titleMedium": {
+                    "color": "#ffffffff"
+               },
+               "titleSmall": {
+                    "color": "#ffffffff"
+               },
+               "bodyMedium": {
+                    "color": "#ff9e9e9e"
+               }
+          }
+     }
+}
